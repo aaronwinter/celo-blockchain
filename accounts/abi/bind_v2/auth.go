@@ -54,7 +54,7 @@ func NewTransactorWithChainId(keyin io.Reader, passphrase string, chainId *big.I
 	if err != nil {
 		return nil, err
 	}
-	return NewKeyedTransactor(key.PrivateKey, chainId), nil
+	return NewKeyedTransactorWithChainId(key.PrivateKey, chainId), nil
 }
 
 // NewKeyStoreTransactor is a utility method to easily create a transaction signer from
@@ -94,7 +94,7 @@ func NewKeyedTransactor(key *ecdsa.PrivateKey) *TransactOpts {
 	}
 }
 
-func NewKeyedTransactor(key *ecdsa.PrivateKey, chainId *big.Int) *TransactOpts {
+func NewKeyedTransactorWithChainId(key *ecdsa.PrivateKey, chainId *big.Int) *TransactOpts {
 	keyAddr := crypto.PubkeyToAddress(key.PublicKey)
 	var signer types.EIP155Signer
 	if chainId != nil {
