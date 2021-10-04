@@ -21,6 +21,7 @@ import (
 	"errors"
 	"io"
 	"io/ioutil"
+	"math/big"
 
 	"github.com/celo-org/celo-blockchain/accounts"
 	"github.com/celo-org/celo-blockchain/accounts/external"
@@ -42,6 +43,18 @@ func NewTransactor(keyin io.Reader, passphrase string) (*TransactOpts, error) {
 		return nil, err
 	}
 	return NewKeyedTransactor(key.PrivateKey), nil
+}
+
+func NewTransactorWithChainId(keyin io.Reader, passphrase string, chainId *big.Int) (*TransactOpts, error) {
+	json, err := ioutil.ReadAll(keyin)
+	if err != nil {
+		return nil, err
+	}
+	key, err := keystore.DecryptKey(json, passphrase)
+	if err != nil {
+		return nil, err
+	}
+	return NewKeyedTransactor(key.PrivateKey, chainId), nil
 }
 
 // NewKeyStoreTransactor is a utility method to easily create a transaction signer from
@@ -69,6 +82,27 @@ func NewKeyedTransactor(key *ecdsa.PrivateKey) *TransactOpts {
 	return &TransactOpts{
 		From: keyAddr,
 		Signer: func(signer types.Signer, address common.Address, tx *types.Transaction) (*types.Transaction, error) {
+			if address != keyAddr {
+				return nil, errors.New("not authorized to sign this account")
+			}
+			signature, err := crypto.Sign(signer.Hash(tx).Bytes(), key)
+			if err != nil {
+				return nil, err
+			}
+			return tx.WithSignature(signer, signature)
+		},
+	}
+}
+
+func NewKeyedTransactor(key *ecdsa.PrivateKey, chainId *big.Int) *TransactOpts {
+	keyAddr := crypto.PubkeyToAddress(key.PublicKey)
+	var signer types.EIP155Signer
+	if chainId != nil {
+		signer = types.NewEIP155Signer(chainId)
+	}
+	return &TransactOpts{
+		From: keyAddr,
+		Signer: func(s types.Signer, address common.Address, tx *types.Transaction) (*types.Transaction, error) {
 			if address != keyAddr {
 				return nil, errors.New("not authorized to sign this account")
 			}
