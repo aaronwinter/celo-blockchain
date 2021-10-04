@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/rpc"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

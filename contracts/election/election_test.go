@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/contracts"
-	"github.com/celo-org/celo-blockchain/contracts/testutil"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/contracts"
+	"github.com/aaronwinter/celo-blockchain/contracts/testutil"
 )
 
 func TestGetElectedValidators(t *testing.T) {

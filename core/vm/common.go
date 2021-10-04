@@ -17,8 +17,8 @@
 package vm
 
 import (
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/math"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/math"
 	"github.com/holiman/uint256"
 )
 

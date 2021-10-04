@@ -26,11 +26,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/prque"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/prque"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 const (

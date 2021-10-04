@@ -21,7 +21,7 @@ package metrics
 import (
 	"syscall"
 
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

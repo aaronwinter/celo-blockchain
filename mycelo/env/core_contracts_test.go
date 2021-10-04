@@ -3,7 +3,7 @@ package env
 import (
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 func TestUniqueContractAddresses(t *testing.T) {

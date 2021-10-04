@@ -26,11 +26,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/consensus/istanbul/uptime"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/params"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul/uptime"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

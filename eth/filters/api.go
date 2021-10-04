@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/celo-org/celo-blockchain"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/ethdb"
-	"github.com/celo-org/celo-blockchain/rpc"
+	ethereum "github.com/aaronwinter/celo-blockchain"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/ethdb"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 )
 
 var (

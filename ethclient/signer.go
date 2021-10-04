@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

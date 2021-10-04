@@ -23,9 +23,9 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

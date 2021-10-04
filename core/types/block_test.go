@@ -22,11 +22,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/math"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/params"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/math"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 func TestBlockEncoding(t *testing.T) {

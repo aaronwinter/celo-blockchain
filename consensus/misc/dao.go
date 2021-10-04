@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/core/state"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/core/state"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 var (

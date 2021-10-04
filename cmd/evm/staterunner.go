@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/celo-org/celo-blockchain/core/state"
-	"github.com/celo-org/celo-blockchain/core/vm"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/tests"
+	"github.com/aaronwinter/celo-blockchain/core/state"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/tests"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/crypto/ecies"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/crypto/ecies"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

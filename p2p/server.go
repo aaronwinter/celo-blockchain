@@ -29,17 +29,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/mclock"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/event"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/p2p/discover"
-	"github.com/celo-org/celo-blockchain/p2p/discv5"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/p2p/enr"
-	"github.com/celo-org/celo-blockchain/p2p/nat"
-	"github.com/celo-org/celo-blockchain/p2p/netutil"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/mclock"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/event"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/p2p/discover"
+	"github.com/aaronwinter/celo-blockchain/p2p/discv5"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/p2p/enr"
+	"github.com/aaronwinter/celo-blockchain/p2p/nat"
+	"github.com/aaronwinter/celo-blockchain/p2p/netutil"
 )
 
 const (
@@ -125,7 +125,7 @@ type Config struct {
 	NetRestrict *netutil.Netlist `toml:",omitempty"`
 
 	// PingIPFromPacket uses the IP address from p2p discovery ping packet
-	// rather than the UDP header. See https://github.com/celo-org/celo-blockchain/pull/301
+	// rather than the UDP header. See https://github.com/aaronwinter/celo-blockchain/pull/301
 	PingIPFromPacket bool
 
 	// NodeDatabase is the path to the database containing the previously seen

@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/bitutil"
-	"github.com/celo-org/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/common/bitutil"
+	"github.com/aaronwinter/celo-blockchain/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

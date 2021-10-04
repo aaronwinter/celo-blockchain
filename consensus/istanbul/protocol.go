@@ -17,7 +17,7 @@
 package istanbul
 
 import (
-	"github.com/celo-org/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/p2p"
 )
 
 // Constants to match up protocol versions and messages

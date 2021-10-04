@@ -29,11 +29,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/mclock"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/p2p/enr"
-	"github.com/celo-org/celo-blockchain/p2p/netutil"
+	"github.com/aaronwinter/celo-blockchain/common/mclock"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/p2p/enr"
+	"github.com/aaronwinter/celo-blockchain/p2p/netutil"
 )
 
 const (

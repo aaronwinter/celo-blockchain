@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/vm/runtime"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/vm/runtime"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // EVMBackend represents a contract interface that talks directly to an EVM

@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/celo-org/celo-blockchain/p2p"
-	"github.com/celo-org/celo-blockchain/p2p/dnsdisc"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/p2p/dnsdisc"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

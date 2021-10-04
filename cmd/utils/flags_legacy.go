@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/eth"
-	"github.com/celo-org/celo-blockchain/node"
+	"github.com/aaronwinter/celo-blockchain/eth"
+	"github.com/aaronwinter/celo-blockchain/node"
 	"gopkg.in/urfave/cli.v1"
 )
 

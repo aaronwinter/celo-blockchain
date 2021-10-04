@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // This is required to be able of adding it as a ldflag at building time

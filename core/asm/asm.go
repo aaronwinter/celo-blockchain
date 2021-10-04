@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/celo-org/celo-blockchain/cmd/evm/internal/compiler"
+	"github.com/aaronwinter/celo-blockchain/cmd/evm/internal/compiler"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

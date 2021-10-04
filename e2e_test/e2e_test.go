@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/test"
+	"github.com/aaronwinter/celo-blockchain/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -40,7 +40,7 @@ func TestSendCelo(t *testing.T) {
 }
 
 // This test is intended to ensure that epoch blocks can be correctly marshalled.
-// We previously had an open bug for this https://github.com/celo-org/celo-blockchain/issues/1574
+// We previously had an open bug for this https://github.com/aaronwinter/celo-blockchain/issues/1574
 func TestEpochBlockMarshaling(t *testing.T) {
 	accounts := test.Accounts(1)
 	gc, ec, err := test.BuildConfig(accounts)

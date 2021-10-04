@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/eth/downloader"
-	"github.com/celo-org/celo-blockchain/p2p"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/eth/downloader"
+	"github.com/aaronwinter/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
 )
 
 func TestFastSyncDisabling64(t *testing.T) { testFastSyncDisabling(t, 64) }

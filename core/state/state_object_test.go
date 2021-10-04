@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

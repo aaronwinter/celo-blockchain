@@ -5,8 +5,8 @@ import (
 	uurl "net/url"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 	"github.com/influxdata/influxdb/client"
 )
 

@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/internal/testlog"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/rpc"
+	"github.com/aaronwinter/celo-blockchain/internal/testlog"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

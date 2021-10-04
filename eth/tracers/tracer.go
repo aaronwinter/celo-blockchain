@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/core/vm"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/log"
 	duktape "gopkg.in/olebedev/go-duktape.v3"
 )
 

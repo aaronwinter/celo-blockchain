@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/celo-org/celo-blockchain/core/state"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/core/state"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

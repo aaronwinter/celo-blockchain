@@ -50,7 +50,7 @@ you have a valid Go development environment set up, `godep` installed and the go
 repository checked out correctly, you can build the generator with:
 
 ```
-$ cd $GOPATH/src/github.com/celo-org/celo-blockchain
+$ cd $GOPATH/src/github.com/aaronwinter/celo-blockchain
 $ godep go install ./cmd/abigen
 ```
 
@@ -99,8 +99,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/ethclient"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/ethclient"
 )
 
 func main() {
@@ -161,9 +161,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/ethclient"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/ethclient"
 )
 
 const key = `paste the contents of your *testnet* key json here`
@@ -283,8 +283,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind"
-	"github.com/celo-org/celo-blockchain/ethclient"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind"
+	"github.com/aaronwinter/celo-blockchain/ethclient"
 )
 
 const key = `paste the contents of your *testnet* key json here`
@@ -392,10 +392,10 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind"
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind/backends"
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind/backends"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/crypto"
 )
 
 func main() {

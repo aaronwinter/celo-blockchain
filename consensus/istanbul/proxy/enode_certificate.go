@@ -19,10 +19,10 @@ package proxy
 import (
 	"encoding/hex"
 
-	"github.com/celo-org/celo-blockchain/consensus"
-	"github.com/celo-org/celo-blockchain/consensus/istanbul"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/consensus"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 // handleEnodeCertificateMsgFromRemoteVal will handle an enode certificate sent from

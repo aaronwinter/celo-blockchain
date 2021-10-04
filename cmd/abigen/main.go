@@ -25,14 +25,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi"
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind"
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind_v2"
-	"github.com/celo-org/celo-blockchain/cmd/utils"
-	"github.com/celo-org/celo-blockchain/common/compiler"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/internal/flags"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind_v2"
+	"github.com/aaronwinter/celo-blockchain/cmd/utils"
+	"github.com/aaronwinter/celo-blockchain/common/compiler"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/internal/flags"
+	"github.com/aaronwinter/celo-blockchain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

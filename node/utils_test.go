@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/celo-org/celo-blockchain/p2p"
-	"github.com/celo-org/celo-blockchain/rpc"
+	"github.com/aaronwinter/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

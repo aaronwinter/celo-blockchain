@@ -17,8 +17,8 @@
 package graphql
 
 import (
-	"github.com/celo-org/celo-blockchain/internal/ethapi"
-	"github.com/celo-org/celo-blockchain/node"
+	"github.com/aaronwinter/celo-blockchain/internal/ethapi"
+	"github.com/aaronwinter/celo-blockchain/node"
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
 )

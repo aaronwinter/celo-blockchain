@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/contracts/blockchain_parameters"
+	"github.com/aaronwinter/celo-blockchain/contracts/blockchain_parameters"
 	. "github.com/onsi/gomega"
 )
 

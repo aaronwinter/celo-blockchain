@@ -26,10 +26,10 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/p2p/enr"
-	"github.com/celo-org/celo-blockchain/p2p/netutil"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/p2p/enr"
+	"github.com/aaronwinter/celo-blockchain/p2p/netutil"
 )
 
 func TestTable_pingReplace(t *testing.T) {

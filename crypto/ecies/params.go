@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/celo-org/celo-blockchain/crypto"
+	ethcrypto "github.com/aaronwinter/celo-blockchain/crypto"
 )
 
 var (

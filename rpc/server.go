@@ -21,7 +21,7 @@ import (
 	"io"
 	"sync/atomic"
 
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/log"
 	mapset "github.com/deckarep/golang-set"
 )
 

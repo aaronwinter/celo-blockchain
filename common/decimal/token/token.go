@@ -3,7 +3,7 @@ package token
 import (
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common/decimal"
+	"github.com/aaronwinter/celo-blockchain/common/decimal"
 )
 
 var precision = decimal.Precision(18)

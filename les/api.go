@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/common/mclock"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/common/mclock"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
 )
 
 var (

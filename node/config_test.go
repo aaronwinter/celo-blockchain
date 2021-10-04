@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

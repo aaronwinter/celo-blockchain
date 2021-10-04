@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/core/vm"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/params"
 	. "github.com/onsi/gomega"
 )
 

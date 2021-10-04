@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	ethereum "github.com/celo-org/celo-blockchain"
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/rpc"
-	whisper "github.com/celo-org/celo-blockchain/whisper/whisperv6"
+	ethereum "github.com/aaronwinter/celo-blockchain"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/rpc"
+	whisper "github.com/aaronwinter/celo-blockchain/whisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

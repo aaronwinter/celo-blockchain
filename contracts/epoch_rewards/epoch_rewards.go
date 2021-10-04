@@ -18,11 +18,11 @@ package epoch_rewards
 import (
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/contracts"
-	"github.com/celo-org/celo-blockchain/contracts/abis"
-	"github.com/celo-org/celo-blockchain/core/vm"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/contracts"
+	"github.com/aaronwinter/celo-blockchain/contracts/abis"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 var (

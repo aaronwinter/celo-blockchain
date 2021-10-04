@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/rpc"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

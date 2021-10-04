@@ -22,9 +22,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/cmd/utils"
-	"github.com/celo-org/celo-blockchain/consensus/istanbul"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/cmd/utils"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul"
+	"github.com/aaronwinter/celo-blockchain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

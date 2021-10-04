@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/celo-org/celo-blockchain/accounts"
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind"
-	"github.com/celo-org/celo-blockchain/accounts/external"
-	"github.com/celo-org/celo-blockchain/cmd/utils"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/contracts/checkpointoracle"
-	"github.com/celo-org/celo-blockchain/ethclient"
-	"github.com/celo-org/celo-blockchain/params"
-	"github.com/celo-org/celo-blockchain/rpc"
+	"github.com/aaronwinter/celo-blockchain/accounts"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind"
+	"github.com/aaronwinter/celo-blockchain/accounts/external"
+	"github.com/aaronwinter/celo-blockchain/cmd/utils"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/contracts/checkpointoracle"
+	"github.com/aaronwinter/celo-blockchain/ethclient"
+	"github.com/aaronwinter/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

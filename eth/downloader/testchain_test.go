@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/celo-org/celo-blockchain/common"
-	mockEngine "github.com/celo-org/celo-blockchain/consensus/consensustest"
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/core/rawdb"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/common"
+	mockEngine "github.com/aaronwinter/celo-blockchain/consensus/consensustest"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/core/rawdb"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 // Test chain parameters.

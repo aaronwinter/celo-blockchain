@@ -17,8 +17,8 @@
 package geth
 
 import (
-	"github.com/celo-org/celo-blockchain/internal/debug"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/internal/debug"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // SetVerbosity sets the global verbosity level (between 0 and 6 - see logger/verbosity.go).

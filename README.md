@@ -2,8 +2,8 @@
 
 Official golang implementation of the Celo blockchain, based off of the [official golang implementation of the Ethereum protocol](https://github.com/ethereum/go-ethereum).
 
-[![CircleCI](https://img.shields.io/circleci/build/github/celo-org/celo-blockchain/master)](https://circleci.com/gh/celo-org/celo-blockchain/tree/master)
-[![Codecov](https://img.shields.io/codecov/c/github/celo-org/celo-blockchain)](https://codecov.io/gh/celo-org/celo-blockchain)
+[![CircleCI](https://img.shields.io/circleci/build/github/aaronwinter/celo-blockchain/master)](https://circleci.com/gh/aaronwinter/celo-blockchain/tree/master)
+[![Codecov](https://img.shields.io/codecov/c/github/aaronwinter/celo-blockchain)](https://codecov.io/gh/aaronwinter/celo-blockchain)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://chat.celo.org)
 
 Prebuilt [Docker](https://en.wikipedia.org/wiki/Docker_\(software\)) images are available for immediate use: [us.gcr.io/celo-testnet/celo-node](https://us.gcr.io/celo-testnet/celo-node). See [docs.celo.org/getting-started](https://docs.celo.org/getting-started) for a guide to the Celo networks and how to get started.
@@ -219,7 +219,7 @@ Please make sure your contributions adhere to our coding guidelines:
 
 ### Submitting an issue
 
-If you come across a bug, pleas open a [GitHub issue](https://github.com/celo-org/celo-blockchain/issues/new) with information about your build and what happened.
+If you come across a bug, pleas open a [GitHub issue](https://github.com/aaronwinter/celo-blockchain/issues/new) with information about your build and what happened.
 
 ### CI Testing and automerge
 
@@ -231,13 +231,13 @@ merge a PR.
   * End to end sync and transfer tests
   * Check imports: `./scripts/check_imports.sh`
 
- `celo-blockchain` is based on `go-ethereum`, but the import path has been renamed from `github.com/ethereum/go-ethereum` to `github.com/celo-org/celo-blockchain`.
+ `celo-blockchain` is based on `go-ethereum`, but the import path has been renamed from `github.com/ethereum/go-ethereum` to `github.com/aaronwinter/celo-blockchain`.
  Developers are encouraged to run `./scripts/setup_git_hooks.sh` to enable checking that import path has been changed to `celo-org` on `git merge` and `git commit`.
  Imports can automatically be renamed with `./scripts/rename_imports.sh`.
 
 
 Individual package tests can be run with
-`./build/env.sh go test github.com/celo-org/celo-blockchain/$(PATH_TO_GO_PACKAGE)`
+`./build/env.sh go test github.com/aaronwinter/celo-blockchain/$(PATH_TO_GO_PACKAGE)`
 if you don't have `GOPATH` set-up.
 
 

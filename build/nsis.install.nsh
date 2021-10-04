@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/celo-org/celo-blockchain/issues"
-!define UPDATEURL "https://github.com/celo-org/celo-blockchain/releases"
-!define ABOUTURL "https://github.com/celo-org/celo-blockchain#ethereum-go"
+!define HELPURL "https://github.com/aaronwinter/celo-blockchain/issues"
+!define UPDATEURL "https://github.com/aaronwinter/celo-blockchain/releases"
+!define ABOUTURL "https://github.com/aaronwinter/celo-blockchain#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

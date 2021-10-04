@@ -16,7 +16,7 @@
 
 package discv5
 
-import "github.com/celo-org/celo-blockchain/metrics"
+import "github.com/aaronwinter/celo-blockchain/metrics"
 
 var (
 	ingressTrafficMeter = metrics.NewRegisteredMeter("discv5/InboundTraffic", nil)

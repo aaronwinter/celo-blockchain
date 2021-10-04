@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 func TestMain(m *testing.M) {

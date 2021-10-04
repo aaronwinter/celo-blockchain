@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/accounts"
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/accounts"
+	"github.com/aaronwinter/celo-blockchain/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
 )

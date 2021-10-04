@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/mclock"
-	"github.com/celo-org/celo-blockchain/core/rawdb"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/common/mclock"
+	"github.com/aaronwinter/celo-blockchain/core/rawdb"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
 )
 
 func TestClientPoolL10C100Free(t *testing.T) {

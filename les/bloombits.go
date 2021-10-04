@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/bitutil"
-	"github.com/celo-org/celo-blockchain/light"
+	"github.com/aaronwinter/celo-blockchain/common/bitutil"
+	"github.com/aaronwinter/celo-blockchain/light"
 )
 
 const (

@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

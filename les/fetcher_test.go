@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	mockEngine "github.com/celo-org/celo-blockchain/consensus/consensustest"
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/core/rawdb"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/eth/downloader"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
+	mockEngine "github.com/aaronwinter/celo-blockchain/consensus/consensustest"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/core/rawdb"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/eth/downloader"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

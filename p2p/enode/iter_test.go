@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/p2p/enr"
+	"github.com/aaronwinter/celo-blockchain/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

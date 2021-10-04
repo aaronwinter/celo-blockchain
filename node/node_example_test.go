@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/celo-org/celo-blockchain/node"
+	"github.com/aaronwinter/celo-blockchain/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

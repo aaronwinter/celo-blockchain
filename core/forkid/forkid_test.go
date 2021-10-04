@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/params"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 // TestCreation tests that different genesis and fork rule combinations result in

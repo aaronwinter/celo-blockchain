@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/internal/cmdtest"
-	"github.com/celo-org/celo-blockchain/rpc"
+	"github.com/aaronwinter/celo-blockchain/internal/cmdtest"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 	"github.com/docker/docker/pkg/reexec"
 )
 

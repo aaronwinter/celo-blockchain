@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/core/asm"
+	"github.com/aaronwinter/celo-blockchain/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

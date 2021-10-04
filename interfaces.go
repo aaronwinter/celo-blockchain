@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

@@ -16,8 +16,8 @@
 package proxy
 
 import (
-	"github.com/celo-org/celo-blockchain/consensus/istanbul"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
 )
 
 // SendDelegateSignMsgToProxy sends an istanbulDelegateSign message to a proxy

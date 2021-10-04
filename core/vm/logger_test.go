@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/state"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/state"
+	"github.com/aaronwinter/celo-blockchain/params"
 	"github.com/holiman/uint256"
 )
 

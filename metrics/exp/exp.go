@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/metrics"
-	"github.com/celo-org/celo-blockchain/metrics/prometheus"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/metrics/prometheus"
 )
 
 type exp struct {

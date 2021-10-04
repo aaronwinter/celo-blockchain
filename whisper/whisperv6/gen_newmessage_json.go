@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"github.com/celo-org/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
 )
 
 var _ = (*newMessageOverride)(nil)

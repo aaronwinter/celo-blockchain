@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/celo-org/celo-blockchain/event"
+	"github.com/aaronwinter/celo-blockchain/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

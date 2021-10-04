@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 // hashes is a helper to implement sort.Interface.

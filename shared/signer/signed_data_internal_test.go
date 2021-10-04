@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

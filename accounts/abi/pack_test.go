@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

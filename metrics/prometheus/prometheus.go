@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/consensus/istanbul"
-	"github.com/celo-org/celo-blockchain/consensus/istanbul/validator"
-	blscrypto "github.com/celo-org/celo-blockchain/crypto/bls"
-	"github.com/celo-org/celo-blockchain/event"
-	elog "github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul/validator"
+	blscrypto "github.com/aaronwinter/celo-blockchain/crypto/bls"
+	"github.com/aaronwinter/celo-blockchain/event"
+	elog "github.com/aaronwinter/celo-blockchain/log"
 )
 
 func TestCheckMessage(t *testing.T) {

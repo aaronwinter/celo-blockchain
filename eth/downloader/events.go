@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/celo-org/celo-blockchain/core/types"
+import "github.com/aaronwinter/celo-blockchain/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

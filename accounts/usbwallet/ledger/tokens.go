@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 var ErrCouldNotFindToken = errors.New("could not find token")

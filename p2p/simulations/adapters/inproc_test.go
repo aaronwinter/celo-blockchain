@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/p2p/simulations/pipes"
+	"github.com/aaronwinter/celo-blockchain/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

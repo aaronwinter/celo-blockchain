@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/rpc"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

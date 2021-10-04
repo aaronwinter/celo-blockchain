@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/common/math"
+	"github.com/aaronwinter/celo-blockchain/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

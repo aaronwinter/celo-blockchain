@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common/decimal/bigintstr"
+	"github.com/aaronwinter/celo-blockchain/common/decimal/bigintstr"
 )
 
 var _ = (*DoubleSigningSlasherParametersMarshaling)(nil)

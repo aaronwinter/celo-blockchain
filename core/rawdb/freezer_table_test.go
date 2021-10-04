@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/fdlimit"
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/common/fdlimit"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 func init() {

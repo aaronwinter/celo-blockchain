@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/celo-org/celo-blockchain/mycelo/env"
-	"github.com/celo-org/celo-blockchain/mycelo/internal/console"
+	"github.com/aaronwinter/celo-blockchain/mycelo/env"
+	"github.com/aaronwinter/celo-blockchain/mycelo/internal/console"
 	"golang.org/x/sync/errgroup"
 )
 

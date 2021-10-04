@@ -19,9 +19,9 @@ package vm
 import (
 	"errors"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/math"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/math"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

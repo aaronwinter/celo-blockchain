@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"testing"
 
-	blscrypto "github.com/celo-org/celo-blockchain/crypto/bls"
+	blscrypto "github.com/aaronwinter/celo-blockchain/crypto/bls"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
 )
 
 func TestHeaderHash(t *testing.T) {

@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/node"
-	whisper "github.com/celo-org/celo-blockchain/whisper/whisperv6"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/node"
+	whisper "github.com/aaronwinter/celo-blockchain/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

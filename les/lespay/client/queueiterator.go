@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/p2p/nodestate"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

@@ -19,7 +19,7 @@ package rlp
 import (
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
 )
 
 // TestIterator tests some basic things about the ListIterator. A more

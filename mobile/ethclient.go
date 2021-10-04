@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/ethclient"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

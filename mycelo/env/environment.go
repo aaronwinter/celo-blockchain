@@ -3,9 +3,9 @@ package env
 import (
 	"os"
 
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/internal/fileutils"
-	"github.com/celo-org/celo-blockchain/mycelo/internal/utils"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/internal/fileutils"
+	"github.com/aaronwinter/celo-blockchain/mycelo/internal/utils"
 )
 
 // Environment represents a mycelo environment

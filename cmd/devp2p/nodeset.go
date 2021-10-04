@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
 )
 
 const jsonIndent = "    "

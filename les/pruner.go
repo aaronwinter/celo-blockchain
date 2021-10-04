@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/math"
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/ethdb"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common/math"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/ethdb"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

@@ -19,9 +19,9 @@ package client
 import (
 	"sync"
 
-	"github.com/celo-org/celo-blockchain/les/utils"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/p2p/nodestate"
+	"github.com/aaronwinter/celo-blockchain/les/utils"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/p2p/nodestate"
 )
 
 // WrsIterator returns nodes from the specified selectable set with a weighted random

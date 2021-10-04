@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/decimal/fixed"
-	"github.com/celo-org/celo-blockchain/mycelo/env"
-	"github.com/celo-org/celo-blockchain/mycelo/genesis"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/decimal/fixed"
+	"github.com/aaronwinter/celo-blockchain/mycelo/env"
+	"github.com/aaronwinter/celo-blockchain/mycelo/genesis"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 type template interface {

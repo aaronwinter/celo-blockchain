@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi"
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

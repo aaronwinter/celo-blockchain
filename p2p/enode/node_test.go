@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/celo-org/celo-blockchain/p2p/enr"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/p2p/enr"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

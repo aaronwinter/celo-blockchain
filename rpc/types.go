@@ -23,8 +23,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface

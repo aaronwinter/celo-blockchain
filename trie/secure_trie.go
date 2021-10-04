@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

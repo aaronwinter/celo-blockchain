@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

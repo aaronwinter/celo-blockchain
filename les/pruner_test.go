@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/eth/downloader"
-	"github.com/celo-org/celo-blockchain/light"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/eth/downloader"
+	"github.com/aaronwinter/celo-blockchain/light"
 )
 
 func TestLightPruner(t *testing.T) {

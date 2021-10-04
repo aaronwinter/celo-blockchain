@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi"
-	"github.com/celo-org/celo-blockchain/accounts/abi/bind"
-	"github.com/celo-org/celo-blockchain/accounts/keystore"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi/bind"
+	"github.com/aaronwinter/celo-blockchain/accounts/keystore"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a

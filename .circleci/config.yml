@@ -146,7 +146,7 @@ jobs:
           name: Run tests and print coverage summary
           command: |
             go test -coverprofile cov.out -coverpkg ./consensus/istanbul/... ./e2e_test 
-            go run tools/parsecov/main.go -packagePrefix github.com/celo-org/celo-blockchain/ cov.out > summary
+            go run tools/parsecov/main.go -packagePrefix github.com/aaronwinter/celo-blockchain/ cov.out > summary
             cat summary
 
       - run: 
@@ -172,7 +172,7 @@ jobs:
               # backslash processing on the command before execution, so we
               # need to double the backslashes in the awk command.
               curl -u piersy:${PR_COMMENT_TOKEN} -X POST \
-              https://api.github.com/repos/celo-org/celo-blockchain/issues/${CIRCLE_PULL_REQUEST##*/}/comments \
+              https://api.github.com/repos/aaronwinter/celo-blockchain/issues/${CIRCLE_PULL_REQUEST##*/}/comments \
               -d "{\"body\":\"`awk -v ORS='\\\\n' '1' comment`\"}" ;
             fi
 
@@ -199,7 +199,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Check imports to ensure we are using github.com/celo-org/celo-blockchain
+          name: Check imports to ensure we are using github.com/aaronwinter/celo-blockchain
           command: ./scripts/check_imports.sh
 
   android:

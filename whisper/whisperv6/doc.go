@@ -35,7 +35,7 @@ package whisperv6
 import (
 	"time"
 
-	"github.com/celo-org/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/crypto"
 )
 
 // Whisper protocol parameters

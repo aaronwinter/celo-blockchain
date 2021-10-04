@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

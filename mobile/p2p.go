@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/celo-org/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

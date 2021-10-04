@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/core/vm"
-	"github.com/celo-org/celo-blockchain/tests"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

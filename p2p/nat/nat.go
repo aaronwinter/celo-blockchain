@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

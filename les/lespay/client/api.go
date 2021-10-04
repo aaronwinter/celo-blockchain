@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/mclock"
-	"github.com/celo-org/celo-blockchain/les/utils"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/common/mclock"
+	"github.com/aaronwinter/celo-blockchain/les/utils"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
 )
 
 // PrivateClientAPI implements the lespay client side API

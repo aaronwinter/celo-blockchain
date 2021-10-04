@@ -17,9 +17,9 @@
 package backend
 
 import (
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/contracts/random"
-	"github.com/celo-org/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/contracts/random"
+	"github.com/aaronwinter/celo-blockchain/crypto"
 )
 
 // String for creating the random seed

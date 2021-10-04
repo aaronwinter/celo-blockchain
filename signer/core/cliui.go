@@ -24,10 +24,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/console/prompt"
-	"github.com/celo-org/celo-blockchain/internal/ethapi"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/console/prompt"
+	"github.com/aaronwinter/celo-blockchain/internal/ethapi"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 type CommandlineUI struct {

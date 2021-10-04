@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {

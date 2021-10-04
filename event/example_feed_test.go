@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/event"
+	"github.com/aaronwinter/celo-blockchain/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

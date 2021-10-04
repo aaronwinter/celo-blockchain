@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

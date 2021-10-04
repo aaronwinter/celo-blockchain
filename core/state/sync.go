@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/ethdb"
-	"github.com/celo-org/celo-blockchain/rlp"
-	"github.com/celo-org/celo-blockchain/trie"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/ethdb"
+	"github.com/aaronwinter/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

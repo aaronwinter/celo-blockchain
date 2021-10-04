@@ -3,9 +3,9 @@ package testutil
 import (
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/accounts/abi"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
 )
 
 // decapitalise makes a camel-case string which starts with a lower case character.

@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/consensus"
-	"github.com/celo-org/celo-blockchain/core/state"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/consensus"
+	"github.com/aaronwinter/celo-blockchain/core/state"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 // BlockValidator is responsible for validating block headers and

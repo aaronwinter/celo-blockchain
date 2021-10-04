@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/console/prompt"
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/eth"
-	"github.com/celo-org/celo-blockchain/internal/jsre"
-	"github.com/celo-org/celo-blockchain/miner"
-	"github.com/celo-org/celo-blockchain/node"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/console/prompt"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/eth"
+	"github.com/aaronwinter/celo-blockchain/internal/jsre"
+	"github.com/aaronwinter/celo-blockchain/miner"
+	"github.com/aaronwinter/celo-blockchain/node"
 )
 
 const (

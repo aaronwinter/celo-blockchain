@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/consensus/istanbul"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul"
 )
 
 func newView(seq, round uint64) *istanbul.View {

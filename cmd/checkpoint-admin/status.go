@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/cmd/utils"
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/cmd/utils"
+	"github.com/aaronwinter/celo-blockchain/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

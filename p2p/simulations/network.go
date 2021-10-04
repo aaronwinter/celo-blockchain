@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/event"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/p2p"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/p2p/simulations/adapters"
+	"github.com/aaronwinter/celo-blockchain/event"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

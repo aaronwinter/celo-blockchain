@@ -13,26 +13,26 @@ import (
 	"strconv"
 	"time"
 
-	ethereum "github.com/celo-org/celo-blockchain"
+	ethereum "github.com/aaronwinter/celo-blockchain"
 
-	"github.com/celo-org/celo-blockchain/accounts/keystore"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/consensus/istanbul"
-	"github.com/celo-org/celo-blockchain/consensus/istanbul/backend"
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/eth"
-	"github.com/celo-org/celo-blockchain/eth/downloader"
-	"github.com/celo-org/celo-blockchain/ethclient"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/mycelo/env"
-	"github.com/celo-org/celo-blockchain/mycelo/genesis"
-	"github.com/celo-org/celo-blockchain/node"
-	"github.com/celo-org/celo-blockchain/p2p"
-	"github.com/celo-org/celo-blockchain/p2p/enode"
-	"github.com/celo-org/celo-blockchain/params"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/accounts/keystore"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul"
+	"github.com/aaronwinter/celo-blockchain/consensus/istanbul/backend"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/eth"
+	"github.com/aaronwinter/celo-blockchain/eth/downloader"
+	"github.com/aaronwinter/celo-blockchain/ethclient"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/mycelo/env"
+	"github.com/aaronwinter/celo-blockchain/mycelo/genesis"
+	"github.com/aaronwinter/celo-blockchain/node"
+	"github.com/aaronwinter/celo-blockchain/p2p"
+	"github.com/aaronwinter/celo-blockchain/p2p/enode"
+	"github.com/aaronwinter/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 var (
@@ -353,7 +353,7 @@ func NewNetwork(accounts *env.AccountsConfig, gc *genesis.Config, ec *eth.Config
 
 	// Copy eth istanbul config fields to the genesis istanbul config.
 	// There is a ticket to remove this duplication of config.
-	// https://github.com/celo-org/celo-blockchain/issues/1693
+	// https://github.com/aaronwinter/celo-blockchain/issues/1693
 	gc.Istanbul = params.IstanbulConfig{
 		Epoch:          ec.Istanbul.Epoch,
 		ProposerPolicy: uint64(ec.Istanbul.ProposerPolicy),

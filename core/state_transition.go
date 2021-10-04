@@ -20,17 +20,17 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/hexutil"
-	"github.com/celo-org/celo-blockchain/contracts"
-	"github.com/celo-org/celo-blockchain/contracts/blockchain_parameters"
-	"github.com/celo-org/celo-blockchain/contracts/currency"
-	gpm "github.com/celo-org/celo-blockchain/contracts/gasprice_minimum"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/core/vm"
-	"github.com/celo-org/celo-blockchain/core/vm/vmcontext"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/hexutil"
+	"github.com/aaronwinter/celo-blockchain/contracts"
+	"github.com/aaronwinter/celo-blockchain/contracts/blockchain_parameters"
+	"github.com/aaronwinter/celo-blockchain/contracts/currency"
+	gpm "github.com/aaronwinter/celo-blockchain/contracts/gasprice_minimum"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/core/vm/vmcontext"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 /*

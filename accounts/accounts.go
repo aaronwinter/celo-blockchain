@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	ethereum "github.com/celo-org/celo-blockchain"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
-	blscrypto "github.com/celo-org/celo-blockchain/crypto/bls"
-	"github.com/celo-org/celo-blockchain/event"
+	ethereum "github.com/aaronwinter/celo-blockchain"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	blscrypto "github.com/aaronwinter/celo-blockchain/crypto/bls"
+	"github.com/aaronwinter/celo-blockchain/event"
 	"golang.org/x/crypto/sha3"
 )
 

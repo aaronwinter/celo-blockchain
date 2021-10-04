@@ -16,7 +16,7 @@
 
 package bind_v2
 
-import "github.com/celo-org/celo-blockchain/accounts/abi"
+import "github.com/aaronwinter/celo-blockchain/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -89,12 +89,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/celo-org/celo-blockchain"
-	"github.com/celo-org/celo-blockchain/accounts/abi"
-	bind "github.com/celo-org/celo-blockchain/accounts/abi/bind_v2"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/event"
+	ethereum "github.com/aaronwinter/celo-blockchain"
+	"github.com/aaronwinter/celo-blockchain/accounts/abi"
+	bind "github.com/aaronwinter/celo-blockchain/accounts/abi/bind_v2"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

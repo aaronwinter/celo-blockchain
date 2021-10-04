@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

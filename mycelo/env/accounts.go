@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/celo-org/celo-blockchain/accounts"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/crypto"
-	blscrypto "github.com/celo-org/celo-blockchain/crypto/bls"
-	"github.com/celo-org/celo-blockchain/mycelo/hdwallet"
+	"github.com/aaronwinter/celo-blockchain/accounts"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	blscrypto "github.com/aaronwinter/celo-blockchain/crypto/bls"
+	"github.com/aaronwinter/celo-blockchain/mycelo/hdwallet"
 	"github.com/celo-org/celo-bls-go/bls"
 	"github.com/tyler-smith/go-bip39"
 )

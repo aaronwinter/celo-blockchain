@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

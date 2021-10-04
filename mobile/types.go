@@ -23,10 +23,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/rlp"
-	whisper "github.com/celo-org/celo-blockchain/whisper/whisperv6"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/rlp"
+	whisper "github.com/aaronwinter/celo-blockchain/whisper/whisperv6"
 )
 
 // Bloom represents a 256 bit bloom filter.

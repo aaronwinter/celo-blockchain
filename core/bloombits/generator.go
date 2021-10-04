@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/celo-org/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/core/types"
 )
 
 var (

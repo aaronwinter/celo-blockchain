@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/rawdb"
-	"github.com/celo-org/celo-blockchain/light"
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/rawdb"
+	"github.com/aaronwinter/celo-blockchain/light"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

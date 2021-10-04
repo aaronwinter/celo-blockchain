@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 var (

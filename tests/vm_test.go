@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/core/vm"
+	"github.com/aaronwinter/celo-blockchain/core/vm"
 )
 
 func TestVM(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/mclock"
-	"github.com/celo-org/celo-blockchain/les/utils"
+	"github.com/aaronwinter/celo-blockchain/common/mclock"
+	"github.com/aaronwinter/celo-blockchain/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

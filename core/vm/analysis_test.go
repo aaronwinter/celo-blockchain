@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

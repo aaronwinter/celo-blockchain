@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

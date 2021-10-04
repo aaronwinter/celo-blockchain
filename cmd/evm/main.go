@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/celo-org/celo-blockchain/cmd/evm/internal/t8ntool"
-	"github.com/celo-org/celo-blockchain/cmd/utils"
-	"github.com/celo-org/celo-blockchain/internal/flags"
+	"github.com/aaronwinter/celo-blockchain/cmd/evm/internal/t8ntool"
+	"github.com/aaronwinter/celo-blockchain/cmd/utils"
+	"github.com/aaronwinter/celo-blockchain/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

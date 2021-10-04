@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/internal/ethapi"
-	"github.com/celo-org/celo-blockchain/log"
-	"github.com/celo-org/celo-blockchain/signer/core"
-	"github.com/celo-org/celo-blockchain/signer/rules/deps"
-	"github.com/celo-org/celo-blockchain/signer/storage"
+	"github.com/aaronwinter/celo-blockchain/internal/ethapi"
+	"github.com/aaronwinter/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/signer/core"
+	"github.com/aaronwinter/celo-blockchain/signer/rules/deps"
+	"github.com/aaronwinter/celo-blockchain/signer/storage"
 	"github.com/dop251/goja"
 )
 

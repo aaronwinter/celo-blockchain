@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/signer/core"
-	"github.com/celo-org/celo-blockchain/signer/fourbyte"
+	"github.com/aaronwinter/celo-blockchain/signer/core"
+	"github.com/aaronwinter/celo-blockchain/signer/fourbyte"
 )
 
 func init() {

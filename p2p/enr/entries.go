@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 // Entry is implemented by known node record entry types.

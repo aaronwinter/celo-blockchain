@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/celo-org/celo-blockchain/core"
-	"github.com/celo-org/celo-blockchain/p2p/discv5"
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/core"
+	"github.com/aaronwinter/celo-blockchain/p2p/discv5"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

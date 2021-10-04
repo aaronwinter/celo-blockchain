@@ -16,7 +16,7 @@
 
 package discover
 
-import "github.com/celo-org/celo-blockchain/metrics"
+import "github.com/aaronwinter/celo-blockchain/metrics"
 
 var (
 	ingressTrafficMeter = metrics.NewRegisteredMeter("discover/ingress", nil)

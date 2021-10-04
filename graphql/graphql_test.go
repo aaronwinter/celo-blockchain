@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/eth"
-	"github.com/celo-org/celo-blockchain/node"
+	"github.com/aaronwinter/celo-blockchain/eth"
+	"github.com/aaronwinter/celo-blockchain/node"
 	"github.com/stretchr/testify/assert"
 )
 

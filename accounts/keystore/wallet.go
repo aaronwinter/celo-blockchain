@@ -20,14 +20,14 @@ import (
 	"crypto/ecdsa"
 	"math/big"
 
-	blscrypto "github.com/celo-org/celo-blockchain/crypto/bls"
+	blscrypto "github.com/aaronwinter/celo-blockchain/crypto/bls"
 
-	ethereum "github.com/celo-org/celo-blockchain"
-	"github.com/celo-org/celo-blockchain/accounts"
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/log"
+	ethereum "github.com/aaronwinter/celo-blockchain"
+	"github.com/aaronwinter/celo-blockchain/accounts"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/log"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

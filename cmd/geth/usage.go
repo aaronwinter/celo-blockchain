@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/celo-org/celo-blockchain/cmd/utils"
-	"github.com/celo-org/celo-blockchain/internal/debug"
-	"github.com/celo-org/celo-blockchain/internal/flags"
+	"github.com/aaronwinter/celo-blockchain/cmd/utils"
+	"github.com/aaronwinter/celo-blockchain/internal/debug"
+	"github.com/aaronwinter/celo-blockchain/internal/flags"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

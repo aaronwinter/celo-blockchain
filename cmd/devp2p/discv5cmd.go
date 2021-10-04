@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/p2p/discover"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

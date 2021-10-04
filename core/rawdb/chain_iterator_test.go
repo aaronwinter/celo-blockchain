@@ -22,8 +22,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/core/types"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

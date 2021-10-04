@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 var (

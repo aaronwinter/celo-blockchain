@@ -31,7 +31,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/params"
+	"github.com/aaronwinter/celo-blockchain/params"
 )
 
 // Command line flags to configure the interpreters.

@@ -35,11 +35,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celo-org/celo-blockchain/common/bitutil"
-	"github.com/celo-org/celo-blockchain/crypto"
-	"github.com/celo-org/celo-blockchain/crypto/ecies"
-	"github.com/celo-org/celo-blockchain/metrics"
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/common/bitutil"
+	"github.com/aaronwinter/celo-blockchain/crypto"
+	"github.com/aaronwinter/celo-blockchain/crypto/ecies"
+	"github.com/aaronwinter/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

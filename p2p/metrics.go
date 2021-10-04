@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/celo-org/celo-blockchain/metrics"
+	"github.com/aaronwinter/celo-blockchain/metrics"
 )
 
 const (

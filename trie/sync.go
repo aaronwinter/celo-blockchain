@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/celo-org/celo-blockchain/common"
-	"github.com/celo-org/celo-blockchain/common/prque"
-	"github.com/celo-org/celo-blockchain/ethdb"
+	"github.com/aaronwinter/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common/prque"
+	"github.com/aaronwinter/celo-blockchain/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

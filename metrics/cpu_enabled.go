@@ -19,7 +19,7 @@
 package metrics
 
 import (
-	"github.com/celo-org/celo-blockchain/log"
+	"github.com/aaronwinter/celo-blockchain/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

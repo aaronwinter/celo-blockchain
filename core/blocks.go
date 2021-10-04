@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/celo-org/celo-blockchain/common"
+import "github.com/aaronwinter/celo-blockchain/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/celo-org/celo-blockchain/rlp"
+	"github.com/aaronwinter/celo-blockchain/rlp"
 )
 
 var (

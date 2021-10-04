@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/celo-org/celo-blockchain/common"
+	"github.com/aaronwinter/celo-blockchain/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

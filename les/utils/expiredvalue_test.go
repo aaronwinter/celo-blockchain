@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/celo-org/celo-blockchain/common/mclock"
+	"github.com/aaronwinter/celo-blockchain/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {
